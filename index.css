@@ -1,0 +1,156 @@
+body{
+	text-align: center;
+	background-color: #15233c;
+	cursor: default;
+}
+#winner{
+	font-family: Orbitron, sans-serif;
+	font-size: 45pt;
+	width: 100%;
+	color: gold;
+	z-index: 1;
+	visibility: hidden;
+	position: absolute;
+}
+@keyframes anime {
+    from {font-size: 45pt;}
+    to {font-size: 170pt;}
+}
+#all{
+	margin:7% 35% ;
+	width: 100%;
+}
+#div1 , #div2 , #div3 , #div4{
+width: 200px;
+height: 200px;
+border : 5px black solid;
+}
+#div1{
+	border-top-left-radius: 100%;
+	border-top : 10px black solid;
+	border-left : 10px black solid;
+	background-color: #009803;
+}
+#div3{
+	border-bottom-left-radius: 100%;
+	border-bottom : 10px black solid;
+	border-left : 10px black solid;
+	background-color: #ffd335;
+}
+#div2{
+	border-top-right-radius: 100%;
+	border-top : 10px black solid;
+	border-right:  10px black solid;
+	background-color: #c10000;
+}
+#div4{
+	border-bottom-right-radius: 100%;
+	border-right:   10px black solid;
+	border-bottom : 10px black solid;
+	background-color: #0600c1;
+}
+#noyau1{
+	position: absolute;
+}
+#noyau2{
+	font-family: 'Josefin Sans', sans-serif;
+	position: absolute;
+	transform: translate(115px,115px);
+	width: 180px;
+	height: 180px;
+	background-color: #fff4ee;
+	border-radius: 50%;
+	border : 10px black solid;
+	transition: all 1s ease;
+}
+input,#strict,#restart{
+	width: 38px;
+	height: 23px;
+	font-size: 12pt;
+	font-family: Orbitron, sans-serif;
+	outline: none;
+	text-align: center;
+	border-radius: 10px;
+	border:black 2px solid;
+	background-color: #3f0424;
+	color: #ddd;
+}
+#strict:active,#restart:active{
+	transform: translate(0px, 2px);
+	box-shadow: none;
+}
+span{
+	margin:0px;
+	height: 20px;
+}
+
+#strict,#restart{
+	color: #000;
+	background-color: #ffff66;
+	height: 30px;
+	font-family: 'Josefin Sans', sans-serif;
+	width: 50px;
+	box-shadow: 0px 2px 2px #888 ;
+	cursor: pointer;
+	font-size: 14pt;
+}
+#restart{
+	font-size: 11pt;
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	margin-top: 5px;
+}
+#on , #off{
+	 margin-top:10px;
+	 cursor: pointer;
+	 height: 20px;
+	 width: 20px;
+	 outline : none;
+	 background-color: black;
+}
+#on{
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border : 1px solid black;
+	transition: all 1s ease;
+	border-left :none;
+}
+#off{
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border : 1px solid black;
+	border-right :none;
+	transition:  all 1s ease;
+	background-color: #ba0000;
+}
+p{
+	margin: 18px auto;
+	font-family:  Orbitron, sans-serif;
+	font-size: 20pt;
+	font-weight: bold;
+	text-shadow: 0px 0px 2px #3e5a85;
+}
+#end{
+	font-family: 'Josefin Sans', sans-serif;
+	color:#999;
+	font-size: 12pt;
+	margin : 180px auto;
+}
+a{
+	text-decoration: none;
+	color:#f03546;
+}
+a:hover{
+	color:#f16c4d;
+}
+
+
+
+
+
+
+
+
+
+

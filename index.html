@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Simon Game</title>
+	<link rel="stylesheet" href="index.css">	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="index.js" ></script>
+	<link href="https://fonts.googleapis.com/css?family=Calligraffitti|Coming+Soon|Orbitron" rel="stylesheet">
+	<link  href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet" />
+	 <script src="https://use.fontawesome.com/612bfcc45d.js"></script>
+
+</head>
+<body>
+<div id="winner">VICTORY !</div>
+<div id="all">
+<div id="noyau1">
+	<div style="display: flex;">
+	<audio id="wrong" src="http://www.freesound.org/data/previews/331/331912_3248244-lq.mp3"></audio>
+		<div id="div1" onclick="check(1)">
+			<audio id="sound1" src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3"></audio>
+		</div>
+		<div id="div2" onclick="check(2)">
+			<audio id="sound2" src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3"></audio>
+		</div>
+	</div>
+	<div style="display: flex;">
+		<div id="div3" onclick="check(3)">
+			<audio id="sound3" src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3"></audio>
+		</div>
+		<div id="div4" onclick="check(4)">
+			<audio id="sound4" src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3"></audio>
+		</div>
+	</div>
+</div>
+<div id="noyau2">
+	<p>Simon</p>
+	<div><input type="text" disabled value="--" id="score"/>
+	<button id="strict">strict</button>
+	<button id="restart"><i class="fa fa-refresh" aria-hidden="true"></i></button><br/>
+	Off&nbsp<button id="off"></button><button id="on"></button>&nbspOn<br/>
+	<p>Game</p>
+</div>
+<div id="end">
+	Designed &amp Coded by <a href="https://codepen.io/Yagrini" target="_blank">Youness Lagrini</a>
+</div>
+</div>
+</body>
+</html>
